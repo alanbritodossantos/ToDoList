@@ -11,23 +11,25 @@ Este projeto é uma aplicação de lista de tarefas (To Do List) que permite adi
 ## Configuração do Projeto
 
 1. Clone o repositório:
+https://github.com/alanbritodossantos/ToDoList.git
 
 
-2. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto
 
 
 ### Backend
 
-3. Navegue até o diretório do backend:
+3. Navegue até o diretório do backend
 
 
-4. Atualize a string de conexão do banco de dados no arquivo `appsettings.json`:
+4. Atualize a string de conexão do banco de dados no arquivo `appsettings.json`
 
 5. Execute as migrações para criar o banco de dados:
-	dotnet ef database update
+	no visual studio 2022 no Package Manager Console coloquei o seguinte comando 'add-migration lista' aperte enter e depois coloque 
+	o segundo comando 'update-database' com isso irá criar um banco com a tabela no Microsoft SQL Server Management Studio
 
 6. Inicie o servidor de desenvolvimento do backend:
-	dotnet run
+	no visual studio 2022 aperte F5 para executar o projeto
 
 O servidor de desenvolvimento do backend será iniciado na porta 7210 (ou na porta definida em seu arquivo launchSettings.json).
 
